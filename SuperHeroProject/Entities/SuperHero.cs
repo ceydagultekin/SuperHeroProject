@@ -10,8 +10,8 @@ namespace SuperHeroProject.Entities
         public string Name { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        //Place i
-        //çin güncellenen kısım sonraki iki satır buradaki PlaceId , Place 'de Id ye karşılık gelio 
+        //Place 
+        //için güncellenen kısım sonraki iki satır buradaki PlaceId , Place 'de Id ye karşılıktır
         [ForeignKey("PlaceId")]
         public int? PlaceId { get; set; }
         public Place Place { get; set; }
